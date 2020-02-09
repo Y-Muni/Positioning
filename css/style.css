@@ -14,5 +14,10 @@
 }
 
 #child {
-    
+    width: 100px;
+    height: 100px;
+    background: #cc5317;
+    position: absolute;
+    top: 15px;
+    left: 300px;
 }
