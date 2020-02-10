@@ -15,6 +15,17 @@ html, body {
     display: block;
 }
 
+/* #parent:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -40px;
+    width: 0;
+    height: 0;
+    border: 20px solid;
+    border-color: transparent transparent transparent;
+} */
+
 .black {
     background: black;
     color: #fff;
@@ -29,3 +40,13 @@ html, body {
     top: 15px;
     left: 300px;
 }
+
+#fixed {
+    width: 100px;
+    height: 100px;
+    background: #716ccc;
+    position: fixed;
+    right: 100px;
+    top: 50px;
+}
+
