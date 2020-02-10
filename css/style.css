@@ -2,7 +2,8 @@ body {
     height: 2000px;
 }
 
-html, body {
+html, 
+body {
     margin: 0;
 }
 
@@ -22,7 +23,7 @@ html, body {
     width: 0;
     height: 0;
     border: 20px solid;
-    border-color: transparent transparent transparent;
+    border-color: transparent transparent transparent black;
 }
 
 .black {
