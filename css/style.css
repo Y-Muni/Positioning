@@ -50,3 +50,12 @@ body {
     top: 50px;
 }
 
+#sticky {
+    width: 100px;
+    height: 100px;
+    background: #ccc716;
+    position: sticky;
+    right: 0px;
+    top: 40px;
+    margin: 0 auto;
+}
