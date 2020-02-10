@@ -1,0 +1,22 @@
+
+
+
+
+.root {
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    background: #ccc;
+    padding: 10px 15px;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 38px;
+    left: 0px;
+    background: #716ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
