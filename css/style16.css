@@ -15,8 +15,50 @@ html {
   vertical-align: top;
 }
 
+.menu_bold {
+  color: black;
+  background-color: #fff;
+  margin: 13px 5px 5px 50px;
+  padding: 5px 5px 3px 5px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  outline: none;
+  border-bottom: 1px solid transparent;
+  vertical-align: top;
+  font-weight: bold;
+}
+
+.menu_right {
+  color: black;
+  background-color: #fff;
+  margin: 13px 5px 13px 420px;
+  padding: 5px 5px 3px 5px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  outline: none;
+  border-bottom: 1px solid transparent;
+  vertical-align: top;
+}
+
+.dropdown {
+  display: block;
+  float: right;
+  overflow: hidden;
+  margin left: 
+}
+
 .menu:hover {
-  border-bottom: 1.8px solid;
+  border-bottom: 1.5px solid;
+}
+
+.menu_right:hover {
+  border-bottom: 1.5px solid;
+}
+
+.menu_bold:hover {
+  border-bottom: 1.5px solid;
 }
 
 a {
@@ -54,9 +96,10 @@ a {
 }
 
 .img {
-  width: 14%;
+  width: 141px;
   box-sizing:border-box;
   cursor: pointer;
+  height: 65px;
 }
 
 .line {
