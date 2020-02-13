@@ -45,7 +45,7 @@ html {
 
 .topmenu {
   list-style-type: none;
-  display: inline-block;
+  display: flex;
   max-width: 785px;
   margin: 0;
   padding: 5px;
