@@ -69,7 +69,9 @@ a {
   bottom: 10px;
   z-index: 10000000;
   cursor: pointer;
-  background: black;
+  width: 0;
+  height: 0;
+  border: 20px solid blueviolet;
 }
 
 .link_one:hover {
