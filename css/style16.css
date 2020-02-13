@@ -63,6 +63,19 @@ a {
   display: inline-block;
 }
 
+.fixed {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  z-index: 10000000;
+  cursor: pointer;
+  background: black;
+}
+
+a, a:visited {
+  color: aqua;
+}
+
 .link_one:hover {
   background-color: #1377b1;
   color: white;
