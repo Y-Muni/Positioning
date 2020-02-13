@@ -72,10 +72,6 @@ a {
   background: black;
 }
 
-a, a:visited {
-  color: aqua;
-}
-
 .link_one:hover {
   background-color: #1377b1;
   color: white;
