@@ -59,9 +59,9 @@ html {
   border-bottom: 1.5px solid;
 }
 
-/* a {
+a {
   display: inline-block;
-} */
+}
 
 .link_one:hover {
   background-color: #1377b1;
