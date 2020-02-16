@@ -13,21 +13,15 @@ html {
   outline: none;
   border-bottom: 1px solid transparent;
   vertical-align: top;
-}
-
-.topmenu {
-  list-style-type: none;
-  display: flex;
-  max-width: 785px;
-  margin: 0;
-  padding: 5px;
   position: relative;
   top: -70px;
   left: 160px;
 }
 
-.topmenu:hover .submenu {
+li:hover .submenu {
   display: block;
+  top: 48px;
+  left: 632px;
 }
 
 .submenu > li {
@@ -43,10 +37,10 @@ html {
 .submenu {
   display: none;
   position: absolute;
-  top: 46px;
-  left: 588px;
+  top: 48px;
+  left: 632px;
   width: 97px;
-  height: 170px;
+  height: 206px;
   z-index: 100;
   background: #c9c9c9;
   color: black;
@@ -112,12 +106,13 @@ a {
 }
 
 .line {
-  display: block;
+  display: flex;
   float: left;
   overflow: hidden;
   margin: 0;
   width: 1200px;
   height: 300px;
+  list-style-type: none;
 }
 
 .bg {
