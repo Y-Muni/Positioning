@@ -14,14 +14,12 @@ html {
   border-bottom: 1px solid transparent;
   vertical-align: top;
   position: relative;
-  top: -70px;
-  left: 160px;
+  top: 2px;
+  left: 86px;
 }
 
 li:hover .submenu {
   display: block;
-  top: 48px;
-  left: 632px;
 }
 
 .submenu > li {
@@ -66,6 +64,15 @@ a {
   width: 0;
   height: 0;
   border: 20px solid blueviolet;
+}
+
+a[href^="icon"] {
+  color: #fff;
+  font-size: 30px;
+  position: fixed;
+  right: 22px;
+  bottom: 12px;
+  text-decoration: none;
 }
 
 .link_one:hover {
